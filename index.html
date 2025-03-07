@@ -124,6 +124,21 @@
                 text-align: left;
             }
         }
+
+        /* 追尾フッターのスタイル */
+        .footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 14px;
+            font-weight: bold;
+            z-index: 10; /* 他の要素より上に表示 */
+        }
     </style>
 </head>
 <body>
@@ -178,6 +193,10 @@
                 <div class="price">¥1200</div>
             </div>
         </div>
+    </div>
+
+    <div class="footer">
+        ご注文はメニューをスタッフにお伝えください。
     </div>
 
 </body>
